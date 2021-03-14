@@ -12,8 +12,8 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @Slf4j
 public class UserService {
-
-  private final UserRepository userRepository;
+  
+  private UserRepository userRepository;
 
   @Autowired
   public UserService(UserRepository userRepository) {
