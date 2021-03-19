@@ -34,13 +34,13 @@ server:
 spring:
   datasource:
     driverClassName: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:XE
-    username: springuser
-    password: ThePassword
+    url: jdbc:oracle:thin:@localhost:1523:XE
+    username: tenant
+    password: ABCD1234@
     hikari.connection-timeout: 60000
     hikari.maximum-pool-size: 5    
   jpa:
-    hibernate.ddl-auto: update
+    hibernate.ddl-auto: create
     properties:
       hibernate.generate_statistics: true
     database-platform: org.hibernate.dialect.Oracle10gDialect    
