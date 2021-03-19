@@ -1,4 +1,4 @@
-package com.example.dxc.springdatajpa.model;
+package com.jornadacolaborativa.microservice.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

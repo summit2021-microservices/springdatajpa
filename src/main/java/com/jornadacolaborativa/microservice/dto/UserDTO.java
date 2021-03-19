@@ -1,4 +1,4 @@
-package com.example.dxc.springdatajpa.dto;
+package com.jornadacolaborativa.microservice.dto;
 
 import javax.validation.constraints.NotBlank;
 

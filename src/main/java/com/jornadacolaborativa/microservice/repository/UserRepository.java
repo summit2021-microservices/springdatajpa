@@ -1,6 +1,6 @@
-package com.example.dxc.springdatajpa.repository;
+package com.jornadacolaborativa.microservice.repository;
 
-import com.example.dxc.springdatajpa.model.User;
+import com.jornadacolaborativa.microservice.model.User;
 
 import org.springframework.data.repository.CrudRepository;
 

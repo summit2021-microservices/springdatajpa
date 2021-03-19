@@ -1,8 +1,8 @@
-package com.example.dxc.springdatajpa.service;
+package com.jornadacolaborativa.microservice.service;
 
 
-import com.example.dxc.springdatajpa.model.User;
-import com.example.dxc.springdatajpa.repository.UserRepository;
+import com.jornadacolaborativa.microservice.model.User;
+import com.jornadacolaborativa.microservice.repository.UserRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

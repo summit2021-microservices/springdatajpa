@@ -1,10 +1,10 @@
-package com.example.dxc.springdatajpa.controller;
+package com.jornadacolaborativa.microservice.controller;
 
 import javax.validation.Valid;
 
-import com.example.dxc.springdatajpa.dto.UserDTO;
-import com.example.dxc.springdatajpa.model.User;
-import com.example.dxc.springdatajpa.service.UserService;
+import com.jornadacolaborativa.microservice.dto.UserDTO;
+import com.jornadacolaborativa.microservice.model.User;
+import com.jornadacolaborativa.microservice.service.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,12 +22,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/users")
 public class UserController {
   
-  private UserService userService;
-  
   @Autowired
-  public UserController(UserService userService) {
-    this.userService = userService;
-  }
+  private UserService userService;
 
   @GetMapping
   public ResponseEntity<Iterable<User>> getUsers() {
